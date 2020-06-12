@@ -29,6 +29,8 @@ public class SceneLoader : MonoBehaviour
     {
        Application.Quit();
     }
+    //we can call Application.Quit() from a key press or 
+    //from conditions met in our code, it doesn't have to be a button press.
 
 }
 
